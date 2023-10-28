@@ -1,0 +1,24 @@
+package com.javadev.learnspringframework.game;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
+
+@Configuration
+public class GamingConfiguration {
+
+	@Bean
+	@Primary
+//	@Qualifier("mainGameQualifier")
+	public GamingConsole game() {
+		var game = new Pacman();
+		return game;
+	}
+
+	@Bean
+	public GameRunner gameRunner(GamingConsole game) {
+		var runner = new GameRunner(game);
+		return runner;
+	}
+
+}

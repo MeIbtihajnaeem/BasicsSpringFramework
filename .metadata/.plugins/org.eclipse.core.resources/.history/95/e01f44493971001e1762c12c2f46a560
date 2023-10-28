@@ -1,0 +1,25 @@
+package com.javadev.learnspringframework;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.javadev.learnspringframework.game.GameRunner;
+import com.javadev.learnspringframework.game.GamingConsole;
+import com.javadev.learnspringframework.game.MarioGame;
+
+
+public class AppGamingBasicSpring {
+
+	public static void main(String[] args) {
+		try(var context = new AnnotationConfigApplicationContext()){
+			context.getBean(GamingConsole.class).up();
+			context.getBean(GameRunner.class).run();
+			
+		}
+//		var game = new SuperContra();
+//		var game = new MarioGame();
+//		var gameRunner = new GameRunner(game);
+//		gameRunner.run();
+
+	}
+
+}

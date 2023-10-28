@@ -1,0 +1,5 @@
+package com.javadev.learnspringframwork.springBean;
+
+public @interface primary {
+
+}

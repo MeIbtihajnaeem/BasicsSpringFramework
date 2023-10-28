@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.javadev.learnspringframework.game.GameRunner"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Primary"/>
+    <fullyQualifiedTypeName name="com.javadev.learnspringframework.game.GamingConsole"/>
+    <fullyQualifiedTypeName name="com.javadev.learnspringframework.game.GamingConfiguration"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+    <fullyQualifiedTypeName name="com.javadev.learnspringframework.game.MarioGame"/>
+    <fullyQualifiedTypeName name="com.javadev.learnspringframework.game.SuperContra"/>
+    <fullyQualifiedTypeName name="com.javadev.learnspringframework.game.Pacman"/>
+</qualifiedTypeNameHistroy>

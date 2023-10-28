@@ -1,0 +1,5 @@
+package com.javadev.learnspringframework.examples.a00;
+
+public interface DataService {
+	int[] retrieveData();
+}
