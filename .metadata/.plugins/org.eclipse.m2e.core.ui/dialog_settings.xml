@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/Users/ibtihajnaeem/Documents/version_control/Spring &amp; Springboot/Spring-boot-web-app"/>
 			<item value="/Users/ibtihajnaeem/Documents/version_control/Spring &amp; Springboot/learn-spring-framework-02"/>
 			<item value="/Users/ibtihajnaeem/Documents/version_control/Spring &amp; Springboot/learn-jpa-and-hibernate 2"/>
 			<item value="/Users/ibtihajnaeem/Documents/version_control/Spring &amp; Springboot/learn-jpa-and-hibernate"/>
@@ -18,6 +19,14 @@
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
